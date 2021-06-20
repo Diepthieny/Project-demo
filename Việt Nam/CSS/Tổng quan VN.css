@@ -1,0 +1,260 @@
+.intro{
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: 0;
+    top: 10px;
+}
+
+.blue{
+    position: relative;
+    
+}
+
+.text1{
+    position: absolute;
+    top: 280px;
+    left: 250px;
+    font-size: 70px;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px #01937C, 0 0 25px #28B5B5, 0 0 5px #61A6AB;
+}
+
+.text2{
+    top: 340px;
+    left: 350px;
+    position: absolute;
+    font-size: 23px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 3px #34656D, 0 0 5px #96BB7C;
+}
+
+.halongbay{
+    width: 340px;
+    height: 200px;
+    position: absolute;
+    top: 580px;
+    right: 370px;
+    border-radius: 4px;
+    transition: all 200ms ease-out;
+}
+
+.halongbay:hover{
+    -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.2); 
+  box-shadow: 0 0 0 4px rgba(221, 255, 188, 0.8);
+}
+
+.salt{
+    width: 310px;
+    height: 200px;
+    position: absolute;
+    top: 580px;
+    right: 20px;
+    border-radius: 4px;
+    transition: all 200ms ease-out;
+}
+
+.salt:hover{
+    -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.2); 
+  box-shadow: 0 0 0 4px rgba(221, 255, 188, 0.8);
+}
+
+.name{
+    z-index: 1;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 50px;
+    line-height: 37px;
+}
+
+.name img{
+    width: 600px;
+    height: 400px;
+    padding-left: 90px;
+    padding-top: 65px;
+}
+
+.fullname{
+    font-size: 27px;
+    font-weight: 600;
+    text-decoration: underline ;
+    font-family: Oswald;
+    letter-spacing: 0.5px;
+    color: black;
+    bottom: 30px;
+    text-shadow: 1px 1px 3px white;
+}
+
+@font-face {
+    font-family: Lobster;
+    src: url(/Fonts/Lobster-Regular.ttf);
+}
+
+@font-face {
+    font-family: Oswald;
+    src: url(/Fonts/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: OpenSansCondensed;
+    src: url(/Fonts/OpenSansCondensed-Bold.ttf);
+}
+
+@font-face {
+    font-family: Merriweather;
+    src: url(/Fonts/Merriweather-Black.ttf);
+}
+
+.national{
+    letter-spacing: 1px;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: Lobster;
+    color: darkred;
+    text-shadow: 1px 1px 2px white, 0 0 25px #FFC107, 0 0 5px #F98404;
+    top: 30px;
+}
+
+
+.menu_bar{
+    background-color:rgb(255,255,255, 0.15);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5%;
+    margin-bottom: 15px;
+}
+
+.logo{
+    left: 40px;
+}
+
+.btn{
+    background-color: #4E89AE;
+    color: #f0f0f0 ;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12.5px;
+    transition: all 0.3s;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1.5px;
+    float: right;
+    border: none;
+}
+
+.btn:hover{
+    background-color: #2978B5;
+    color: white;
+}
+  
+.menu_bar ul{
+    list-style: none;
+    display: flex;
+  }
+  
+.menu_bar ul li{
+    padding: 10px 20px;
+    position: relative;
+}
+  
+.menu_bar ul li a{
+    color: #32466B;
+    text-decoration: none;
+    font-size: 12.5px;
+    transition: all 0.3s;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 1.5px;
+
+}
+  
+.menu_bar ul li a:hover{
+    color: #FF7F66;
+
+}
+  
+.dropdown_menu{
+    display: none;
+}
+  
+.menu_bar ul li:hover .dropdown_menu{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color:white;
+    border: #f0f0f0 1px solid; 
+    z-index: 1;
+} 
+  
+.menu_bar ul li:hover .dropdown_menu ul{
+    display: block;
+    margin: 10px;
+   
+}
+  
+.menu_bar ul li:hover .dropdown_menu ul li{
+    width: 180px;
+    padding: 10px;
+    border-bottom: #f0f0f0 1px solid;
+    text-align: center;
+}
+  
+*{
+    box-sizing: border-box;
+}
+
+.row{
+    margin: 8px -16px;
+    padding-top: 700px;
+}
+
+.column{
+    float: left;
+    width: 33%;
+    padding: 30px;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content{
+    background-color: white;
+    padding: 10px;
+}
+
+.content:hover{
+    box-shadow: 0 0 5px 8px rgba(0, 140, 186, 0.5);
+}
+
+
+h3{
+    color: black;
+    font-size: 30px;
+    font-family: Oswald;
+    padding-left: 20px;
+}
+
+p{
+    color: black;
+    font-family: Oswald;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    font-size: 25px;
+    padding-left: 15px;
+}

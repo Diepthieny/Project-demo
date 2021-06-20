@@ -1,0 +1,123 @@
+.intro{
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: 0;
+    top: 55px;
+}
+
+.blue{
+    position: relative;
+    bottom: 50px;
+}
+
+.text1{
+    position: absolute;
+    top: 280px;
+    left: 250px;
+    font-size: 70px;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px #01937C, 0 0 25px #28B5B5, 0 0 5px #61A6AB;
+}
+
+.text2{
+    top: 340px;
+    left: 350px;
+    position: absolute;
+    font-size: 23px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 3px #34656D, 0 0 5px #96BB7C;
+}
+
+.parallax{
+    background: url('/Danh lam thắng cảnh/IMG/background.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+    position: relative;
+}
+
+.parallaxword{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Alegreya;
+    color: white;
+    font-weight: bolder;
+    top: 40%;
+    letter-spacing: 1px;
+    font-size: 60px;
+    position: absolute;
+    padding-left: 300px;
+    text-shadow: 1px 1px 2px #01937C, 0 0 25px #28B5B5, 0 0 5px #61A6AB;
+}
+
+.banner{
+    width: 100%;
+    height: 200vh;
+    background-color: #96e4fc;
+    overflow: hidden;
+    top: 0;
+}
+
+.banner .carousel{
+    width: 600px;
+    margin: 100px auto 0;
+    overflow: visible;
+    line-height: 30px;
+    top: 0px;
+}
+
+.carousel img{
+    top: 0;
+    border-radius: 5px;
+    -webkit-box-reflect: below 20px linear-gradient(rgba(255,255,255,0.05), rgba(255,255,255,0.1));
+}
+
+.carousel h1{
+    text-align: center;
+    font-family: lobster;
+    color: #1E3D59;
+    letter-spacing: 1px;
+    font-size: 40px;
+    top: 15px;
+}
+
+.carousel h3{
+    padding-left: 150px;
+    font-family: Oswald;
+    color: #1E3D59;
+    letter-spacing: 1px;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: lighter;
+}
+@font-face {
+    font-family: Oswald;
+    src: url(/Fonts/Oswald-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: fontawesome;
+    src: url(/Fonts/fontawesome-webfont.ttf);
+}
+
+@font-face {
+    font-family: lobster;
+    src: url(/Fonts/Lobster-Regular.ttf);
+}
+
+@font-face {
+    font-family: Bangers;
+    src: url(/Fonts/Bangers-Regular.ttf);
+}
+
+@font-face {
+    font-family: NotoSerif;
+    src: url(/Fonts/NotoSerif-Bold.ttf);
+}
+
+@font-face {
+    font-family: Alegreya;
+    src: url(/Fonts/Alegreya-ExtraBold.ttf);
+}

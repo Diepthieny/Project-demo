@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/Ẩm thực VN.css">
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="/CSS/lightslider.css">
+    <script type="text/javascript" src="/JS/JQuery3.3.1.js"></script>
+    <script type="text/javascript" src="/JS/lightslider.js"></script>
+    <link rel="stylesheet" href="/CSS/Menu.css">
+</head>
+
+<body>
+
+
+    <body style="background-color:#96e4fc;font-family: raleway-r;font-size: 16px;line-height: 30px;color: red;">
+        <header>
+            <div class="container">
+                <div class="logo-container">
+                    <img src="/Img/logo 1.png" width="100px" height="100px">
+                </div>
+
+                <div class="nav-btn">
+                    <div class="nav-links">
+                        <ul>
+                            <li class="nav-link">
+                                <a href="#">Trang chủ</a>
+                            </li>
+                            <li class="nav-link">
+                                <a href="#">Quốc kì các nước<i class="fas fa-caret-down"></i></a>
+                                <div class="dropdown">
+                                    <ul>
+                                        <li class="dropdown-link">
+                                            <a href="#">Châu Á</a>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="#">Châu Âu</a>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="#">Châu Phi</a>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="#">Châu Mĩ</a>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="#">Châu Úc</a>
+                                        </li>
+                                        <div class="arrow"></div>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-link">
+                                <a href="#">Việt Nam<i class="fas fa-caret-down"></i></a>
+                                <div class="dropdown">
+                                    <ul>
+                                        <li class="dropdown-link">
+                                            <a href="#">Sơ lược về Việt Nam</a>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="#">Lịch sử hình thành<i class="fas fa-caret-down"></i></a>
+                                            <div class="dropdown second">
+                                                <ul>
+                                                    <li class="dropdown-link">
+                                                        <a href="#"> Nước Văn Lang và nước Âu Lạc</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Nghìn năm đô hộ đến năm 938</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Từ thời phong kiến đến thời nhà Nguyễn</a>
+                                                    </li>
+                                                    <li class="dropdown-link">
+                                                        <a href="#">Kháng chiến chống Pháp, Mĩ và hiện tại</a>
+                                                    </li>
+                                                    <div class="arrow"></div>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="#">Văn hóa</a>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="#">Lễ hội</a>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="#">Danh lam thắng cảnh</a>
+                                        </li>
+                                        <li class="dropdown-link">
+                                            <a href="#">Ẩm thực</a>
+                                        </li>
+                                        <div class="arrow"></div>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-link">
+                                <a href="#">Về chúng tôi</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="log-sign">
+                        <button class="btn">Đăng nhập / Đăng kí</button>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="container-fluid">
+            <div class="mySlides fade">
+                <img src="/Ẩm thực/IMG/slider 1.jpg" style="width:100%">
+                <div class="text">
+                    <h1>ẨM THỰC VIỆT NAM</h1>
+                </div>
+            </div>
+            <div class="mySlides fade">
+                <img src="/Ẩm thực/IMG/slider 2.jpg" style="width:100%">
+                <div class="text">
+                    <h1>ẨM THỰC VIỆT NAM</h1>
+                </div>
+            </div>
+            <div class="mySlides fade">
+                <img src="/Ẩm thực/IMG/slider 3.jpg" style="width:100%">
+                <div class="text">
+                    <h1>ẨM THỰC VIỆT NAM</h1>
+                </div>
+            </div>
+            <div class="mySlides fade">
+                <img src="/Ẩm thực/IMG/slider 4.jpg" style="width:100%">
+                <div class="text">
+                    <h1>ẨM THỰC VIỆT NAM</h1>
+                </div>
+            </div>
+            <div class="mySlides fade">
+                <img src="/Ẩm thực/IMG/slider 5.jpg" style="width:100%">
+                <div class="text">
+                    <h1>ẨM THỰC VIỆT NAM</h1>
+                </div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+
+        </div>
+
+        <div class="parallax">
+
+            <h1 class="parallaxword">NÉT VĂN HÓA ẨM THỰC 3 MIỀN CỰC KỲ HẤP DẪN!</h1>
+            <!-- <p>NÉT VĂN HÓA ẨM THỰC 3 MIỀN CỰC KỲ HẤP DẪN</p> -->
+        </div>
+
+    </body>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+
+    </script>
+
+
+    <div class="food">
+        <ul id="autoWidth" class="cs-hidden">
+
+            <li class="item-a">
+                <div class="box">
+                    <img src="/Ẩm thực/IMG/1 Bánh cuốn.jpg" class="model">
+                    <div class="details">
+                        <p>Bánh cuốn</p>
+                    </div>
+                </div>
+            </li>
+            <li class="item-a">
+                <div class="box">
+                    <img src="/Ẩm thực/IMG/2 Bánh Khọt.jpg" class="model">
+                    <div class="details">
+                        <p>Bánh khọt</p>
+                    </div>
+                </div>
+            </li>
+            <li class="item-a">
+                <div class="box">
+                    <img src="/Ẩm thực/IMG/3 Chả giò.jpg" class="model">
+                    <div class="details">
+                        <p>Chả giò</p>
+                    </div>
+                </div>
+            </li>
+            <li class="item-a">
+                <div class="box">
+                    <img src="/Ẩm thực/IMG/4 Phở.jpg" class="model">
+                    <div class="details">
+                        <p>Phở</p>
+                    </div>
+                </div>
+            </li>
+            <li class="item-a">
+                <div class="box">
+                    <img src="/Ẩm thực/IMG/5 Bún chả Hà Nội.jpg" class="model">
+                    <div class="details">
+                        <p>Bún chả Hà Nội</p>
+                    </div>
+                </div>
+            </li>
+            <li class="item-a">
+                <div class="box">
+                    <img src="/Ẩm thực/IMG/6 Bún Bò Huế.jpg" class="model">
+                    <div class="details">
+                        <p>Bún bò Huế</p>
+                    </div>
+                </div>
+            </li>
+            <li class="item-a">
+                <div class="box">
+                    <img src="/Ẩm thực/IMG/7 Bánh xèo.jpg" class="model">
+                    <div class="details">
+                        <p>Bánh xèo</p>
+                    </div>
+                </div>
+            </li>
+            <li class="item-a">
+                <div class="box">
+                    <img src="/Ẩm thực/IMG/8 Bánh Mì.jpg" class="model">
+                    <div class="details">
+                        <p>Bánh mì</p>
+                    </div>
+                </div>
+            </li>
+            <li class="item-a">
+                <div class="box">
+                    <img src="/Ẩm thực/IMG/9 Chạo tôm.jpg" class="model">
+                    <div class="details">
+                        <p>Chạo tôm</p>
+                    </div>
+                </div>
+            </li>
+            <li class="item-a">
+                <div class="box">
+                    <img src="/Ẩm thực/IMG/Bánh Chưng.jpg.jpg" class="model">
+                    <div class="details">
+                        <p>Bánh Chưng</p>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+
+
+    </div>
+    <script src="/JS/script.js" type="text/javascript"></script>
+
+</html>

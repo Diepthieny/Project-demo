@@ -1,0 +1,25 @@
+@font-face {
+    font-family: raleway-r;
+    src: url(/Fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: raleway-b;
+    src: url(/Fonts/Raleway-Bold.ttf);
+}
+
+
+/* Đoạn phía trên là link các font chữ vào trong css, sau đó mới
+sử dụng vào trong bài, folder font chữ kèm theo, cài vào mới xài */
+
+.w-color {
+    background-color: white;
+    opacity: 50%;
+}
+
+.containwcolor img{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
