@@ -1,0 +1,247 @@
+.banner1 img{
+    position: relative;
+    animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+  -o-animation: fadeIn 4s;
+  -ms-animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+  
+
+.textbox{
+    width: 800px;
+    position: absolute;
+    top: 300px;
+    color: #fff;
+    animation: textup 17s linear infinite;
+    transform: translateY(100px);
+}
+
+@keyframes textup{
+    10%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.textbox h1{
+    margin-bottom: 40px;
+    margin-left: 200px;
+    font-size: 70px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    text-shadow: 1px 1px 5px #DA0037, 0 0 25px #FC5404, 0 0 10px #FB3640;
+}
+
+.textbox p{
+    font-size: 17px;
+    line-height: 35px;
+    margin-top: 70px;
+    margin-left: 250px; 
+    font-size: 23px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 5px #D44000, 0 0 7px #FF7A00;
+}
+
+.textbox span{
+    background: #FFC85C;
+    height: 2px;
+    width: 130px;
+    position: absolute;
+    left: 250px;
+}
+
+.textbox1{
+    animation-delay: 0s;
+}
+
+@font-face {
+    font-family: Noto-Serif;
+    src: url(/Fonts/NotoSerif-Bold.ttf);
+}
+
+* {
+	/* margin: 0;
+	padding: 0; */
+	box-sizing: border-box;
+}
+
+.carousel{
+    font-family: Noto-Serif;
+    display: flex;
+	height: 100vh;
+	align-items: center;
+    margin-top: 1350px;
+    position: relative;
+}
+
+.news-wrap {
+	width: 100%;
+	padding: 30px 0;
+}
+
+.news-grid {
+	width: 550px;
+    height: 625px;
+	position: relative;
+	background: #fff;
+	border-radius: 5px;
+	overflow: hidden;
+	border: 1px solid #ddd;	
+    /* box-shadow: 0px 10px 30px 0px rgba(50, 50, 50, 0.16); */
+	margin: 10px;
+     /* display: inline-block;  */
+   
+}
+
+.news-grid-image {
+	width: 100%;
+	height: 280px;
+	overflow: hidden;
+}
+
+.news-grid-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: .5s;
+}
+
+.news-grid-txt {
+	padding: 25px;
+}
+
+.news-grid-txt span {
+	color: #26ccca;
+	font-size: 13px;
+	font-weight: 500;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+
+.news-grid-txt h2 {
+	color: #111;
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	margin: 10px 0px 5px 0px;
+} 
+
+.news-grid-txt > ul {
+	padding: 0;
+	margin: 0;
+}
+
+.news-grid-txt > ul > li {
+	list-style: none;
+	display: inline-block;
+	color: #999;
+	font-size: 14px;
+	font-weight: 300;
+	margin: 8px 10px 8px 0px;
+	letter-spacing: 1px;
+}
+
+.news-grid-txt > ul > li > i {
+	color: #26ccca;
+	font-size: 14px;
+	font-weight: 500;
+	margin-right: 5px;
+}
+
+.news-grid-txt > p {
+	color: #222;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 35px;
+	letter-spacing: 1px;
+	padding-bottom: 15px;
+	margin-bottom: 25px;
+}
+
+.owl-controls .owl-buttons {
+	position: relative;
+}
+
+.owl-controls .owl-prev {
+	position: absolute;
+	left: -40px;
+	bottom: 230px;
+	padding: 8px 17px;
+	background: #26ccca;
+	border-radius: 50px;
+	transition: .5s;
+}
+
+.owl-controls .owl-next {
+	position: absolute;
+	right: -40px;
+	bottom: 230px;
+	padding: 8px 17px;
+	background: #26ccca;
+	border-radius: 50px;
+	transition: .5s;
+}
+
+.owl-controls .owl-prev:after, .owl-controls .owl-next:after {
+	content: '\f104';
+	font-family: FontAwesome;
+	color: #fff;
+	font-size: 16px;
+}
+
+.owl-controls .owl-next:after {
+	content: '\f105';
+}
+
+.owl-controls .owl-prev:hover, .owl-controls .owl-next:hover {
+	background: #000;
+}
+
+.news-grid:hover .overlay{
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    font-weight: 600;
+    top: 50%;
+    left: 50%;
+    right: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align:left;
+    justify-content: center;
+    line-height: 35px;
+    word-spacing: 1.5px;
+}
+
+.text span{
+    font-weight: 900;
+    color: white;
+    text-shadow: 1px 1px 3px #9FD8DF;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
